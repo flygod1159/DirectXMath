@@ -1672,6 +1672,17 @@ inline XMMATRIX XM_CALLCONV XMMatrixRotationRollPitchYawFromVector
 
 //------------------------------------------------------------------------------
 
+inline XMVECTOR XM_CALLCONV XMMatrixRotationToEuler
+(
+    FXMMATRIX M
+) noexcept
+{
+    // TODO -
+    return g_XMZero; // <Pitch, Yaw, Roll, 0>
+}
+
+//------------------------------------------------------------------------------
+
 inline XMMATRIX XM_CALLCONV XMMatrixRotationNormal
 (
     FXMVECTOR NormalAxis,

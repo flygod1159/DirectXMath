@@ -660,6 +660,17 @@ inline XMVECTOR XM_CALLCONV XMQuaternionRotationRollPitchYawFromVector
 
 //------------------------------------------------------------------------------
 
+inline XMVECTOR XM_CALLCONV XMQuaternionRotationToEuler
+(
+    FXMVECTOR Q
+) noexcept
+{
+    // TODO -
+    return g_XMZero; // <Pitch, Yaw, Roll, 0>
+}
+
+//------------------------------------------------------------------------------
+
 inline XMVECTOR XM_CALLCONV XMQuaternionRotationNormal
 (
     FXMVECTOR NormalAxis,
